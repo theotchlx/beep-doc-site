@@ -1,5 +1,14 @@
 # beep-doc-site
  Beep TAD and ADR website.
+
+## Building the website
+
+Execute the following command to build the website:
+
+```bash
+antora --fetch antora-playbook.yml
+```
+
 = Antora Demo Site and Playbook Project
 :url-project: https://antora.org
 :url-org: https://gitlab.com/antora
