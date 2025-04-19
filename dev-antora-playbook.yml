@@ -1,0 +1,22 @@
+site:
+  title: Beep Documentation Site
+  # the 404 page and sitemap files only get generated when the url property is set
+  #url: https://antora.gitlab.io/demo/docs-site
+  start_page: beep-tad::index.adoc
+content:
+  sources:
+  - url: ../beep-adr
+    branches: HEAD
+  - url: ../beep-tad
+    branches: HEAD
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+ui:
+  bundle:
+    url: https://github.com/theotchlx/beep-doc-site-ui/releases/download/1.0.0/ui-bundle.zip
+    snapshot: true
+
